@@ -14,7 +14,7 @@ vitoprovolone = load_prompt("./prompts/VitoProvolone.json")
 chat = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0)
 
 # Create a list of questions
-questions = ["What's the secret to happiness?", "What does honor mean to you?", "How do you approach conflicts?"]
+questions = ["What's the secret to happiness?", "What does honor mean to you?", "How do you approach conflicts?", "What should I do if my passport expires in Costa Rica and I can't get on the plane home?"]
 
 # Iterate over the questions
 for question in questions:
