@@ -65,26 +65,30 @@ This project provides small examples of working with LangChain using Python.
 
 ## Features
 
-- 1.1 simple_prompt_template: Create a prompt object that takes a question as an input variable, and returns an answer. Instantiate an LLM, and create a chain using the instantiated LLM and the prompt object. Finally, run the chain by passing chain.run funtion an input question, and print the output. 
-- 1.2 simple_movie_assistant
-- 1.3 simple_naming_assistant
-- 1.4 simple_summarizer
-- 1.5 simple_prompt_template
-- 2.1 surferbro_prompt_template
-- 3.1 dj_squircle_life_coach_with_few_shot_example_step_by_step
-- 3.2 dj_squircle_life_coach_with_few_shot_examples
-- 4.1 save_few_shot_example_prompts
-- 4.2 load_few_shot_example_prompts
-- 4.3 save_several_few_shot_example_prompts
-- 4.4 load_several_few_shot_examples
-- 5.1 few_shot_example_prompt
-- 6.1 how_many_tokens_whats_it_cost
-- 7.1 output_parser_csv
-- 7.2 output_parser_structured_with_validation
-- 8.1 language translation
-- 9.1 prompt_chaining
-- 10.1 pdf_summarizing
-- 11.1 web_article_summarizer
+01.00_surferbro_prompt_template.py
+01.01_simple_prompt_template.py
+01.02_simple_prompt_template.py
+01.03_simple_naming_assistant.py
+01.04_simple_summarizer.py
+01.05_simple_prompt_template.py
+02.01_simple_movie_assistant.py
+02.02_simple_movie_assistant.py
+03.01_dj_squircle_life_coach_with_few_shot_example_step_by_step.py
+03.02_dj_squircle_life_coach_with_few_shot_examples.py
+04.01_save_few_shot_example_prompts.py
+04.02_load_few_shot_example_prompts.py
+04.03_save_several_few_shot_example_prompts.py
+04.04_load_several_few_shot_examples.py
+05.01_few_shot_example_prompt.py
+06.01_how_many_tokens_whats_it_cost.py
+07.01_output_parser_csv.py
+07.02_output_parser_structured_with_validation.py
+08.01_language_translate_and_summarize.py
+09.01_prompt_chaining.py
+10.01_pdf_summarizing.py
+11.01_web_article_summarizer.py
+y_web_character_summarizer.py
+z_DAOGEN_characters.py
 
 ## Documentation
 
