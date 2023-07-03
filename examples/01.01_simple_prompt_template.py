@@ -6,11 +6,10 @@ from langchain.chains import LLMChain
 from langchain.llms import OpenAI
 
 prompt = PromptTemplate(template="Question: {question}\nAnswer:", input_variables=["question"])
-
-llm = OpenAI(model_name="text-davinci-003", temperature=.9)
+llm = OpenAI(model_name="text-davinci-003", temperature=.95)
 chain = LLMChain(llm=llm, prompt=prompt)
 
-output = chain.run("What is the meaning of life for a surfer?")
+output = chain.run("I am creating a character for a science fiction RPG, can you give me three possible names and short backstories for my character?")
 print(output)
 
 

@@ -35,7 +35,7 @@ To set up the project, follow these steps:
 
    ```shell
    # Install required packages
-   pip install python-dotenv langchain openai newspaper3k
+   pip install python-dotenv langchain openai newspaper3k pypdf
    ```
 
 3. Create your `.env` file:
