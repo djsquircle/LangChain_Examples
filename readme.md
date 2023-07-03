@@ -1,6 +1,6 @@
 # LangChain Examples
 
-A collection of working code examples using LangChain for natural language processing tasks. This repository provides implementations of various tutorials found online. Please refer to the acknowledgments section for the source tutorials.
+A collection of working code examples using LangChain for natural language processing tasks. This repository provides implementations of various tutorials found online. Please refer to the acknowledgments section for the source tutorials where most of the code examples originated and were inspired from.
 
 ## Table of Contents
 
@@ -35,7 +35,7 @@ To set up the project, follow these steps:
 
    ```shell
    # Install required packages
-   pip install python-dotenv langchain openai
+   pip install python-dotenv langchain openai newspaper3k
    ```
 
 3. Create your `.env` file:
@@ -65,7 +65,26 @@ This project provides small examples of working with LangChain using Python.
 
 ## Features
 
-- simple_prompt_template: Create a prompt object that takes a question as an input variable, and returns an answer. Instantiate an LLM, and create a chain using the instantiated LLM and the prompt object. Finally, run the chain by passing chain.run funtion an input question, and print the output. 
+- 1.1 simple_prompt_template: Create a prompt object that takes a question as an input variable, and returns an answer. Instantiate an LLM, and create a chain using the instantiated LLM and the prompt object. Finally, run the chain by passing chain.run funtion an input question, and print the output. 
+- 1.2 simple_movie_assistant
+- 1.3 simple_naming_assistant
+- 1.4 simple_summarizer
+- 1.5 simple_prompt_template
+- 2.1 surferbro_prompt_template
+- 3.1 dj_squircle_life_coach_with_few_shot_example_step_by_step
+- 3.2 dj_squircle_life_coach_with_few_shot_examples
+- 4.1 save_few_shot_example_prompts
+- 4.2 load_few_shot_example_prompts
+- 4.3 save_several_few_shot_example_prompts
+- 4.4 load_several_few_shot_examples
+- 5.1 few_shot_example_prompt
+- 6.1 how_many_tokens_whats_it_cost
+- 7.1 output_parser_csv
+- 7.2 output_parser_structured_with_validation
+- 8.1 language translation
+- 9.1 prompt_chaining
+- 10.1 pdf_summarizing
+- 11.1 web_article_summarizer
 
 ## Documentation
 
